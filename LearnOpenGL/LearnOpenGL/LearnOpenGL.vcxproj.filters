@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="资源文件\resources">
+      <UniqueIdentifier>{e98a2c0e-55c3-4f58-b29f-8616c115a83d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\audio">
+      <UniqueIdentifier>{f157aa17-0c7d-457c-9f06-3772f5030a99}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\fonts">
+      <UniqueIdentifier>{90a1535d-633a-4741-ae87-5204743935c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\levels">
+      <UniqueIdentifier>{6a4df1e4-7d44-4479-9f80-189b056ffbda}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\objects">
+      <UniqueIdentifier>{3a01f92b-ee86-430c-a95b-a2d22ec246be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\textures">
+      <UniqueIdentifier>{a432762d-b7c1-4bb1-971c-0bcaef61d40c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\textures\hdr">
+      <UniqueIdentifier>{195f4fcb-4831-4060-9734-a1f15edec846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\textures\pbr">
+      <UniqueIdentifier>{8789213f-4434-429a-ada9-c4462925dcea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\textures\skybox">
+      <UniqueIdentifier>{1b596135-ccd8-444f-8c04-6bf84e069ee6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\textures\pbr\gold">
+      <UniqueIdentifier>{36c42eb9-07e8-4668-bf26-4d7beab8ee3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\textures\pbr\grass">
+      <UniqueIdentifier>{cdcfa396-105c-42e6-b0c1-8242f863b88e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\textures\pbr\plastic">
+      <UniqueIdentifier>{0bb8168b-dd7f-42e6-84c6-05b0a2599d52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\textures\pbr\rusted_iron">
+      <UniqueIdentifier>{d10bb5c5-7ccc-4458-bd4a-fc2f113dbe90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="资源文件\resources\textures\pbr\wall">
+      <UniqueIdentifier>{c8ac15c4-2157-41bb-a5e6-84c8924c99c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1.getting_started">
+      <UniqueIdentifier>{3154bb1c-7306-45e7-844c-3e5fb5e3de0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\1.getting_started\1.1.hello_window">
+      <UniqueIdentifier>{e8aeb89f-74d2-4945-8cff-69501757f2f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="resources\audio\bleep.mp3">
+      <Filter>资源文件\resources\audio</Filter>
+    </Media>
+    <Media Include="resources\audio\bleep.wav">
+      <Filter>资源文件\resources\audio</Filter>
+    </Media>
+    <Media Include="resources\audio\breakout.mp3">
+      <Filter>资源文件\resources\audio</Filter>
+    </Media>
+    <Media Include="resources\audio\powerup.wav">
+      <Filter>资源文件\resources\audio</Filter>
+    </Media>
+    <Media Include="resources\audio\solid.wav">
+      <Filter>资源文件\resources\audio</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="resources\fonts\Antonio-Bold.ttf">
+      <Filter>资源文件\resources\fonts</Filter>
+    </Font>
+    <Font Include="resources\fonts\Antonio-Light.ttf">
+      <Filter>资源文件\resources\fonts</Filter>
+    </Font>
+    <Font Include="resources\fonts\Antonio-Regular.ttf">
+      <Filter>资源文件\resources\fonts</Filter>
+    </Font>
+    <Font Include="resources\fonts\OCRAEXT.TTF">
+      <Filter>资源文件\resources\fonts</Filter>
+    </Font>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="resources\fonts\SIL Open Font License.txt">
+      <Filter>资源文件\resources\fonts</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\levels\four.lvl">
+      <Filter>资源文件\resources\levels</Filter>
+    </None>
+    <None Include="resources\levels\one.lvl">
+      <Filter>资源文件\resources\levels</Filter>
+    </None>
+    <None Include="resources\levels\three.lvl">
+      <Filter>资源文件\resources\levels</Filter>
+    </None>
+    <None Include="resources\levels\two.lvl">
+      <Filter>资源文件\resources\levels</Filter>
+    </None>
+    <None Include="resources\textures\hdr\newport_loft.hdr">
+      <Filter>资源文件\resources\textures\hdr</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\textures\awesomeface.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\background.jpg">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\block.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\block_solid.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\bricks2.jpg">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\bricks2_disp.jpg">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\bricks2_normal.jpg">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\brickwall.jpg">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\brickwall_normal.jpg">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\container.jpg">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\container2.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\container2_specular.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\container2_specular_colored.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\grass.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\marble.jpg">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\matrix.jpg">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\metal.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\paddle.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\particle.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\powerup_chaos.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\powerup_confuse.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\powerup_increase.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\powerup_passthrough.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\powerup_speed.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\powerup_sticky.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\toy_box_diffuse.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\toy_box_disp.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\toy_box_normal.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\window.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\wood.png">
+      <Filter>资源文件\resources\textures</Filter>
+    </Image>
+    <Image Include="resources\textures\skybox\back.jpg">
+      <Filter>资源文件\resources\textures\skybox</Filter>
+    </Image>
+    <Image Include="resources\textures\skybox\bottom.jpg">
+      <Filter>资源文件\resources\textures\skybox</Filter>
+    </Image>
+    <Image Include="resources\textures\skybox\front.jpg">
+      <Filter>资源文件\resources\textures\skybox</Filter>
+    </Image>
+    <Image Include="resources\textures\skybox\left.jpg">
+      <Filter>资源文件\resources\textures\skybox</Filter>
+    </Image>
+    <Image Include="resources\textures\skybox\right.jpg">
+      <Filter>资源文件\resources\textures\skybox</Filter>
+    </Image>
+    <Image Include="resources\textures\skybox\top.jpg">
+      <Filter>资源文件\resources\textures\skybox</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\gold\albedo.png">
+      <Filter>资源文件\resources\textures\pbr\gold</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\gold\ao.png">
+      <Filter>资源文件\resources\textures\pbr\gold</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\gold\metallic.png">
+      <Filter>资源文件\resources\textures\pbr\gold</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\gold\normal.png">
+      <Filter>资源文件\resources\textures\pbr\gold</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\gold\roughness.png">
+      <Filter>资源文件\resources\textures\pbr\gold</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\grass\albedo.png">
+      <Filter>资源文件\resources\textures\pbr\grass</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\grass\ao.png">
+      <Filter>资源文件\resources\textures\pbr\grass</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\grass\metallic.png">
+      <Filter>资源文件\resources\textures\pbr\grass</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\grass\normal.png">
+      <Filter>资源文件\resources\textures\pbr\grass</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\grass\roughness.png">
+      <Filter>资源文件\resources\textures\pbr\grass</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\wall\albedo.png">
+      <Filter>资源文件\resources\textures\pbr\wall</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\wall\ao.png">
+      <Filter>资源文件\resources\textures\pbr\wall</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\wall\metallic.png">
+      <Filter>资源文件\resources\textures\pbr\wall</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\wall\normal.png">
+      <Filter>资源文件\resources\textures\pbr\wall</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\wall\roughness.png">
+      <Filter>资源文件\resources\textures\pbr\wall</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\rusted_iron\albedo.png">
+      <Filter>资源文件\resources\textures\pbr\rusted_iron</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\rusted_iron\ao.png">
+      <Filter>资源文件\resources\textures\pbr\rusted_iron</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\rusted_iron\metallic.png">
+      <Filter>资源文件\resources\textures\pbr\rusted_iron</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\rusted_iron\normal.png">
+      <Filter>资源文件\resources\textures\pbr\rusted_iron</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\rusted_iron\roughness.png">
+      <Filter>资源文件\resources\textures\pbr\rusted_iron</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\plastic\albedo.png">
+      <Filter>资源文件\resources\textures\pbr\plastic</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\plastic\ao.png">
+      <Filter>资源文件\resources\textures\pbr\plastic</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\plastic\metallic.png">
+      <Filter>资源文件\resources\textures\pbr\plastic</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\plastic\normal.png">
+      <Filter>资源文件\resources\textures\pbr\plastic</Filter>
+    </Image>
+    <Image Include="resources\textures\pbr\plastic\roughness.png">
+      <Filter>资源文件\resources\textures\pbr\plastic</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\1.getting_started\1.1.hello_window\hello_window.cpp">
+      <Filter>源文件\1.getting_started\1.1.hello_window</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

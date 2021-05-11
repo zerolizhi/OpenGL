@@ -1,0 +1,12 @@
+﻿  colors.cpp
+d:\opengl_project\firstopengll\glfw\include\learnopengl\shader_m.h(44): warning C4101: “e”: 未引用的局部变量
+d:\opengl_project\firstopengll\firstopengll\1.colors\colors.cpp(159): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\opengl_project\firstopengll\firstopengll\1.colors\colors.cpp(256): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\opengl_project\firstopengll\firstopengll\1.colors\colors.cpp(257): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\opengl_project\firstopengll\firstopengll\1.colors\colors.cpp(261): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\opengl_project\firstopengll\firstopengll\1.colors\colors.cpp(262): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+d:\opengl_project\firstopengll\firstopengll\1.colors\colors.cpp(264): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\opengl_project\firstopengll\firstopengll\1.colors\colors.cpp(265): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+d:\opengl_project\firstopengll\firstopengll\1.colors\colors.cpp(274): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+  firstOpenGlL.vcxproj -> D:\OpenGL_Project\firstOpenGlL\Debug\firstOpenGlL.exe
+  firstOpenGlL.vcxproj -> D:\OpenGL_Project\firstOpenGlL\Debug\firstOpenGlL.pdb (Partial PDB)
